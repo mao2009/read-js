@@ -1,6 +1,6 @@
 function readJs(filename){
     let text = ""
-    fetch(filename).then(res => {return res.text()})).then(t => {text = t}
+    fetch(filename).then(res => {return res.text()}).then(t => {text = t});
     return text
 }
 
